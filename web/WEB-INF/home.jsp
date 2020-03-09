@@ -12,6 +12,8 @@
         <title>Lab 4</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home Page</h1>
+        <h2>Hello ${homeUsername}</h2>
+        <a href="/Week04Lab_Sessions/login?action=logout">
     </body>
 </html>

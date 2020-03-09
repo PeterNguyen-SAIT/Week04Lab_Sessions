@@ -12,6 +12,12 @@
         <title>Lab 4</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login</h1>
+        <form>
+            <b>Username: <input type="text" name="usernameField"></b><br>
+            <b>Password: <input type="text" name="passwordField"></b><br>
+            <input type="hidden" name="action" value="login" />
+            <input type="submit" value="Log in" name="login">
+        </form>
     </body>
 </html>
